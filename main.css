@@ -3,33 +3,43 @@ body {
   color: lightgrey;
 }
 
-.octodex {
-}
+
+.octodex {}
+
 
 .octocat {
   margin: 10px;
   display: inline-block;
 }
 
+
 .octocat img {
   width: 400px;
   border: 1.5px solid lightgrey;
+  border-radius: 3px;
 }
+
 
 .image-footer {
   border-bottom: 1.5px solid lightgrey;
 }
 
-.image-number {
 
+.image-number {
+  font-size: 15px;
 }
+
+.image-number:before {
+  content: "#";
+}
+
 
 .image-caption {
-
 }
+
 
 .authors img {
   width: 30px;
   border-width: 0;
-  border-radius: ;
+  border-radius: 3px;
 }
