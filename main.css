@@ -32,7 +32,8 @@ body {
 }
 
 .image-footer span {
-  padding-top: -10px;
+  margin-top: 5px;
+  display:inline-block;
 }
 
 .image-number {
@@ -59,7 +60,7 @@ a {
 
 .authors {
   display: inline-block;
-  padding: 0;
+  vertical-align: middle;
 }
 
 .authors img {
