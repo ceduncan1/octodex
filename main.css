@@ -1,10 +1,17 @@
-.octodex {
-
+body {
+  color: lightgrey;
 }
 
-img {
+.octodex {
+}
+
+.octocat {
+  display: inline-block;
+}
+
+.octocat img {
+  width: 650px;
   border: 3px solid lightgrey;
-  border-radius: ;
 }
 
 .image-footer {
@@ -20,7 +27,8 @@ img {
 
 }
 
-.authors {
-  border: 0;
+.authors img {
+  width: 40px;
+  border-width: 0;
   border-radius: ;
 }
