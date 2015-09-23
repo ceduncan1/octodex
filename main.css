@@ -17,16 +17,23 @@ body {
 .octocat {
   margin: 8px;
   display: inline-block;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 
 .octocat img {
   width: 400px;
-  border: 2px solid lightgrey;
+  border: 1px solid lightgrey;
   border-radius: 3px;
 }
 
+.image-footer {
+  height: 34px;
+}
+
+.image-footer span {
+  padding-top: -10px;
+}
 
 .image-number {
   font-size: 15px;
@@ -41,13 +48,19 @@ body {
   display: inline;
   float: right;
   color: gray;
-  font-size: medium;
+  font-size: 15px;
 }
 
 a {
   color: darkslategrey;
+  text-decoration: none;
 }
 
+
+.authors {
+  display: inline-block;
+  padding: 0;
+}
 
 .authors img {
   width: 30px;
