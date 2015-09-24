@@ -73,6 +73,7 @@ a {
 .authors {
   display: inline-block;
   vertical-align: middle;
+  padding: 0;
 }
 
 .authors img {
